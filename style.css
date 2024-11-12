@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 19px;
+  font-family: "Host Grotesk", sans-serif;
+}
+main {
+  margin-top: 5rem;
+}
+header {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  width: 13%;
+}
+.brand-image {
+  height: 3.2rem;
+}
+.navigation {
+  min-width: 19%;
+}
+.navigation-links,
+.user-profile-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.user-profile {
+  min-width: 12%;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 35rem;
+  width: 51.25rem;
+  border-radius: 0.5rem;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 35rem;
+  width: 51.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.hero-text {
+  min-width: 30%;
+}
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
+.btn-signup {
+  padding: 8px 10px 8px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+}
+.btn-signup:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.feature {
+  height: 10%;
+  width: 100%;
+  border-radius: 0.4rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ride-feature {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 17%;
+  border-radius: 0.4rem;
+  background-color: #e8e8e8;
+}
+.ride-feature:hover {
+  background-color: #e8e8e870;
+  cursor: pointer;
+}
+.inputs {
+  margin-top: 3rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.input-pickup {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: #f3f3f3;
+  border-style: none;
+}
+.date-time {
+  display: flex;
+  gap: 2rem;
+}
+.fare-btn {
+  width: 35%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+}
+.text-fare {
+  font-size: 15px;
+}
